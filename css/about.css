@@ -1,0 +1,112 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+#header {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+.navbar {
+    padding: 50px 0;
+}
+
+
+.bgcolor.scrolled {
+    background-color: whitesmoke;
+}
+
+
+.navbar-brand small{
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: grey;
+}
+
+.nav-item {
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 50px;
+}
+
+.nav-link {
+    
+    letter-spacing: 1px;
+    font-size: 0.95em;
+    font-weight: 700;
+    color: black !important;
+}
+
+.nav-link:hover {
+    background: #7b7c82;
+
+    border-radius: 5px;
+    padding: 8px 15px;
+    transition: all 0.6s ease 0s;
+}
+
+/* .ctn {
+    padding: 8px 15px;
+    background: #fc036b;
+    border-radius: 30px;
+    color: whitesmoke;
+    text-decoration: none;
+    transition: all 0.6s ease 0s;
+} */
+
+.main {
+    position: relative;
+    background: url(img/about.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    /* padding: 340px 0 250px 470px; */
+    padding: 380px 0 220px;
+    justify-content: center;
+    text-align: center;
+}
+
+.textAnim{
+    text-decoration: none !important;
+    font-size: 74px;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+    
+}
+
+
+@media only screen and (max-width:850px) {
+    .main {
+        padding: 340px 0 220px;
+    }
+}
+
+
+.textAnim1{
+    text-decoration: none !important;
+    font-size: 74px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.about-face {
+    width: 250px;
+    height: 250px;
+}
+
+/* footer */
+.fab {
+    font-size: 30px;
+}

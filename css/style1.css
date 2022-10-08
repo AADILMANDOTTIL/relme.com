@@ -1,0 +1,368 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+
+#header {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+
+.navbar {
+    padding: 50px 0;
+    
+}
+
+
+.bgcolor.scrolled {
+    background-color: whitesmoke;
+}
+
+
+.navbar-brand small{
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: grey;
+}
+
+
+.nav-item {
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 50px;   
+}
+
+
+.nav-link {   
+    letter-spacing: 1px;
+    font-size: 0.95em;
+    font-weight: 700;
+    color: black !important;
+}
+
+
+.nav-link:hover {
+    background: #c5c5c87a;   
+    border-radius: 5px;
+    padding: 8px 15px;
+    transition: all 0.6s ease 0s;
+    
+    
+}
+
+
+/* .ctn {
+    padding: 8px 15px;
+    background: #fc036b;
+    border-radius: 30px;
+    color: whitesmoke;
+    text-decoration: none;
+    transition: all 0.6s ease 0s;
+} */
+
+
+/* carousel images */
+.bg1 {
+    position: relative;
+    background: url(img/hd-4.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    /* padding: 280px 0 220px;
+    */
+}
+
+/* .bg2 {
+    position: relative;
+    background: url(img/hd-2.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 280px 0 220px;
+
+} */
+
+.bg3 {
+    position: relative;
+    background: url(img/hd-3.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    /* padding: 280px 0 220px; */
+
+}
+
+.bg4 {
+    position: relative;
+    background: url(img/hd\ -1.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    /* padding: 280px 0 220px; */
+
+}
+
+
+
+
+@media only screen and (max-width:650px) {
+ 
+    /* #header:hover {
+        background: #d2d3dd;
+    } */
+
+    .nav-link {   
+        letter-spacing: 1px;
+        font-size: 0.95em;
+        font-weight: 700;
+        color: black !important;
+    }
+    .nav-link:hover {
+        background: #d2d3dd;   
+        border-radius: 5px;
+        padding: 4px 50px;
+        transition: all 0.6s ease 0s;
+        
+    }
+    .navbar-nav{
+        text-align: center;
+        justify-content: center;
+        /* background-color:rgba(255, 228, 196, 0.511); */
+        width: 100%;
+        height: 100%;
+    }
+    
+
+    .navbar-nav li{ 
+        margin: 50px auto;      
+    }
+
+    .navbar-brand small{
+        font-weight: bold;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: grey;
+        
+    }
+
+    .scroll {
+        display: none;
+    }
+   
+
+    .bg3 {
+        position: relative;
+        background: url(img/hd-3\ mbb.jpg);
+        min-height: 100vh;
+        background-size: cover;
+        background-position: center;
+        padding: 280px 0 220px;
+    
+    }
+
+    .textAbt {
+        text-decoration: none !important;
+        font-size: 52px !important;
+        font-weight: bold;
+        letter-spacing: 5px;
+    }
+
+    .video-parallax {
+        /* background: url(img/videoplayback\ \(2\)\ \(1\).gif) no-repeat center;
+        background-size: cover;
+        background-attachment: fixed; */
+        height: 100px;
+    }
+
+    .popup-video {
+        width: 40%;
+        object-fit: cover;
+    }
+
+}
+
+/* about section*/
+
+.about {
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    animation-delay: 0.4s;
+    animation-duration: 2s;
+    animation-name: fadeInUp;
+    animation-play-state: inherit;
+}
+
+.textAbt {
+    text-decoration: none !important;
+    font-size: 74px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.knowMore {
+    background-color: whitesmoke;
+    padding: 10px 30px;
+    border: 1px solid rgb(113, 109, 109);
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.knowMore:hover {
+    background-color: rgb(216, 210, 210);
+}
+
+.knowMore a {
+    text-decoration: none !important;
+    color: black;
+}
+
+.knowMore a:hover {
+    color: black;
+}
+
+
+/*  */
+.parallax {
+    background: url(img/parallelax.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+}
+
+/* service */
+.card {
+    border-radius: 0%;
+}
+
+.card-title {
+   padding-top: 80%;
+   font-size: 62px;
+}
+
+/* .service {
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    animation-delay: 0.8s;
+    animation-duration: 5s;
+    animation-name: fadeInUp;
+    animation-play-state: unset;
+} */
+
+/* video parallelax */
+.video-parallax {
+    background: url(img/videoplayback\ \(2\)\ \(1\).gif) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+/* .video-parallax h5 {
+    text-align: center;
+    justify-content: center;
+} */
+
+
+/* wedding section */
+
+.wedding {
+    font-size: 42px;
+    /* text-transform: uppercase; */
+    letter-spacing: 5;
+    font-weight: bold;
+}
+
+.formBg {
+    background-color: rgb(246, 239, 239);
+}
+
+.box {
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, -1); 
+     transition: 1s;
+}
+
+.clickAnim {
+    /* display: block;
+    width: 100%; */
+    border-radius: 5px;
+    
+}
+
+.clickAnim:hover {
+    transform: scale(1.05);
+    
+}
+
+
+/* footer */
+.fab {
+    font-size: 30px;
+    color: #d2d3dd;
+}
+
+.video-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.video {
+    object-fit: cover;
+    transition: .2s linear;
+    cursor: pointer;
+    height: 250px;
+    width: 350px;
+    /* border: 5px solid #fff;
+    border-radius: 5px; */
+}
+
+.video:hover {
+    transform: scale(1.02);
+}
+
+
+.popup-video {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 100;
+    height: 100%;
+    width: 100%;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.popup-video video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 750px;
+    object-fit: cover;
+}
+
+.popup-video span {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    font-size: 50px;
+    color: #fff;
+    font-weight: bold;
+    z-index: 100;
+    cursor: pointer;
+}
